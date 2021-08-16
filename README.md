@@ -1,4 +1,4 @@
-# Mage2 Module Genaker LazyLoad
+# Magento2 Module Image LazyLoad
 
     ``genaker/module-lazyload``
 
