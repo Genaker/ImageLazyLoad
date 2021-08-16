@@ -3,12 +3,6 @@
     "description": "Simple module to test integrations and clear Magneto 2  performance ",
     "type": "magento2-module",
     "license": "GPL-3.0",
-    "authors": [
-        {
-            "name": "Mage2Gen",
-            "email": "info@mage2gen.com"
-        }
-    ],
     "minimum-stability": "stable",
     "require": {},
     "autoload": {
