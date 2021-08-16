@@ -23,7 +23,8 @@ class FrontSendResponseBefore implements \Magento\Framework\Event\ObserverInterf
 	  $response = $observer->getResponse();
   	  $html = $response->getBody();
 	 
-	  $html = preg_replace('/<img\s/', '<img loading="lazy" ', $html);
+	  //Without quotes to fix the issues with AJAX - HTML5 doesn't require Quotes 
+	  $html = preg_replace('/<img\s/', '<img loading=lazy ', $html);
 	
           $response->setBody($html);
     }
