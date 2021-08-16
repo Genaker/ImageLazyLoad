@@ -9,7 +9,7 @@
             "email": "info@mage2gen.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "files": [
